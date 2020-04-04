@@ -1,0 +1,22 @@
+.btn-info {
+  border: gray solid 1px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn-info:first-child {
+  border-radius: 4px 0px 0px 4px;
+  border-right: none;
+}
+
+.btn-info:last-child {
+  border-radius: 0px 4px 4px 0px;
+  border-left: none;
+}
+
+.active,
+.btn-info:hover {
+  color: white;
+  background-color: #1eb0c7;
+  border-color: #1eb0c7;
+}
